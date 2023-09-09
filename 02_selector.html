@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+    <style>
+        /*Element Selector*/
+        body {
+            background-color: brown;
+        }
+
+        /*Multiple Selector*/
+        p,
+        h2 {
+            color: black;
+        }
+
+        /*class Selector*/
+        .primary-heading {
+            color: beige;
+        }
+
+        /*id selector*/
+        #welcome {
+            border: 5px solid black;
+        }
+
+        /*Nexted selector*/
+        #about p {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="welcome">
+        <h2 class="primary-heading">Heading 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div id="about">
+        <h2>Heading 2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+</body>
+
+</html>
