@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background: #f4f4f4;
+            border: 2px red solid;
+            width: 500px;
+            /*Padding on all sides*/
+            padding: 10px;
+            /*padding per side*/
+            padding-left: 15px;
+            padding-right: 20px;
+            padding-top: 21px;
+            padding-bottom: 20px;
+            /*Padding shothand*/
+            padding: 21px 15px 20px 20px;
+            padding: 20px 10px;
+            margin: 10px;
+            margin-top: 20px;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h2>Box 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, a.</p>
+    </div>
+    <div class="box">
+        <h2>Box 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, a.</p>
+    </div>
+
+</body>
+
+</html>
